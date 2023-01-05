@@ -1,0 +1,1705 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<robot name="Wolf_Skeleton">
+  <link name="base_link">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <box size="0.125 0.125 0.25 "/>
+      </geometry>
+      <origin xyz="0.0 0.09264006279408932 0.0" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.125 0.125 0.25 "/>
+      </geometry>
+      <origin xyz="0.0 0.09264006279408932 0.0" rpy="0.0 0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_136_Bauch_R">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_136_Bauch_P">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_136_Bauch_Y">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <box size="0.5  0.25 0.75"/>
+      </geometry>
+      <origin xyz="0.0 0.14605647996068002 0.25" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.5  0.25 0.75"/>
+      </geometry>
+      <origin xyz="0.0 0.14605647996068002 0.25" rpy="0.0 0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_137_Bauch.001_R">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_137_Bauch.001_P">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_137_Bauch.001_Y">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <box size="0.5  0.25 0.75"/>
+      </geometry>
+      <origin xyz="0.0 0.14442766159772874 0.25" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.5  0.25 0.75"/>
+      </geometry>
+      <origin xyz="0.0 0.14442766159772874 0.25" rpy="0.0 0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_138_Brust_R">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_138_Brust_P">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_138_Brust_Y">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <box size="0.075 0.25  0.75 "/>
+      </geometry>
+      <origin xyz="0.0 0.18977209478616713 0.25" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.075 0.25  0.75 "/>
+      </geometry>
+      <origin xyz="0.0 0.18977209478616713 0.25" rpy="0.0 0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_139_Hals_R">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_139_Hals_P">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_139_Hals_Y">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <box size="0.25 0.25 0.25"/>
+      </geometry>
+      <origin xyz="0.0 0.325 0.0" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.25 0.25 0.25"/>
+      </geometry>
+      <origin xyz="0.0 0.325 0.0" rpy="0.0 0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_147_Schalterplatte_L_R">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_147_Schalterplatte_L_P">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_147_Schalterplatte_L_Y">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <box size="0.075 0.25  0.075"/>
+      </geometry>
+      <origin xyz="0.0 0.19151573851704598 0.0" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.075 0.25  0.075"/>
+      </geometry>
+      <origin xyz="0.0 0.19151573851704598 0.0" rpy="0.0 0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_148_Oberarm_L_R">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_148_Oberarm_L_P">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_148_Oberarm_L_Y">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <box size="0.075     0.4664934 0.075    "/>
+      </geometry>
+      <origin xyz="0.0 0.27381134927272793 0.0" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.075     0.4664934 0.075    "/>
+      </geometry>
+      <origin xyz="0.0 0.27381134927272793 0.0" rpy="0.0 0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_149_Unterarm_L_R">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_149_Unterarm_L_P">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_149_Unterarm_L_Y">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <box size="0.075 0.3   0.075"/>
+      </geometry>
+      <origin xyz="0.0 0.23030291497707367 0.0" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.075 0.3   0.075"/>
+      </geometry>
+      <origin xyz="0.0 0.23030291497707367 0.0" rpy="0.0 0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_150_Vorderpfote_L_R">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_150_Vorderpfote_L_P">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_150_Vorderpfote_L_Y">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <box size="0.125 0.25  0.05 "/>
+      </geometry>
+      <origin xyz="0.0 0.06079862918704748 0.0" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.125 0.25  0.05 "/>
+      </geometry>
+      <origin xyz="0.0 0.06079862918704748 0.0" rpy="0.0 0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_152_Schalterplatte_R_R">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_152_Schalterplatte_R_P">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_152_Schalterplatte_R_Y">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <box size="0.075 0.25  0.075"/>
+      </geometry>
+      <origin xyz="0.0 0.19151571840047837 0.0" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.075 0.25  0.075"/>
+      </geometry>
+      <origin xyz="0.0 0.19151571840047837 0.0" rpy="0.0 0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_153_Oberarm_R_R">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_153_Oberarm_R_P">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_153_Oberarm_R_Y">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <box size="0.075      0.46649363 0.075     "/>
+      </geometry>
+      <origin xyz="0.0 0.2738114699721336 0.0" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.075      0.46649363 0.075     "/>
+      </geometry>
+      <origin xyz="0.0 0.2738114699721336 0.0" rpy="0.0 0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_154_Unterarm_R_R">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_154_Unterarm_R_P">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_154_Unterarm_R_Y">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <box size="0.075 0.3   0.075"/>
+      </geometry>
+      <origin xyz="0.0 0.23030166774988176 0.0" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.075 0.3   0.075"/>
+      </geometry>
+      <origin xyz="0.0 0.23030166774988176 0.0" rpy="0.0 0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_155_Vorderpfote_R_R">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_155_Vorderpfote_R_P">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_155_Vorderpfote_R_Y">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <box size="0.125 0.25  0.05 "/>
+      </geometry>
+      <origin xyz="0.0 0.060800012201070786 0.0" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.125 0.25  0.05 "/>
+      </geometry>
+      <origin xyz="0.0 0.060800012201070786 0.0" rpy="0.0 0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_157_Schwanz_R">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_157_Schwanz_P">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_157_Schwanz_Y">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <box size="0.05       0.20939873 0.05      "/>
+      </geometry>
+      <origin xyz="0.0 0.1229079432785511 0.0" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.05       0.20939873 0.05      "/>
+      </geometry>
+      <origin xyz="0.0 0.1229079432785511 0.0" rpy="0.0 0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_158_Schwanz.001_R">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_158_Schwanz.001_P">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_158_Schwanz.001_Y">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <box size="0.05       0.18068102 0.05      "/>
+      </geometry>
+      <origin xyz="0.0 0.1060519091784954 0.0" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.05       0.18068102 0.05      "/>
+      </geometry>
+      <origin xyz="0.0 0.1060519091784954 0.0" rpy="0.0 0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_159_Schwanz.002_R">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_159_Schwanz.002_P">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_159_Schwanz.002_Y">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <box size="0.05       0.19205777 0.05      "/>
+      </geometry>
+      <origin xyz="0.0 0.11272956356406212 0.0" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.05       0.19205777 0.05      "/>
+      </geometry>
+      <origin xyz="0.0 0.11272956356406212 0.0" rpy="0.0 0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_160_Schwanz.003_R">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_160_Schwanz.003_P">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_160_Schwanz.003_Y">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <box size="0.05       0.18915927 0.05      "/>
+      </geometry>
+      <origin xyz="0.0 0.1110282652080059 0.0" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.05       0.18915927 0.05      "/>
+      </geometry>
+      <origin xyz="0.0 0.1110282652080059 0.0" rpy="0.0 0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_161_Schwanz.003_end_R">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_161_Schwanz.003_end_P">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_161_Schwanz.003_end_Y">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <box size="0.05      0.1891589 0.05     "/>
+      </geometry>
+      <origin xyz="0.0 0.11102805398404597 0.0" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.05      0.1891589 0.05     "/>
+      </geometry>
+      <origin xyz="0.0 0.11102805398404597 0.0" rpy="0.0 0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_162_Oberschenkel_L_R">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_162_Oberschenkel_L_P">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_162_Oberschenkel_L_Y">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <box size="0.1        0.38788143 0.1       "/>
+      </geometry>
+      <origin xyz="0.0 0.2276695355772972 0.0" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.1        0.38788143 0.1       "/>
+      </geometry>
+      <origin xyz="0.0 0.2276695355772972 0.0" rpy="0.0 0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_163_Unterschenkel_L_R">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_163_Unterschenkel_L_P">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_163_Unterschenkel_L_Y">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <box size="0.1       0.2739076 0.1      "/>
+      </geometry>
+      <origin xyz="0.0 0.1607718497514725 0.0" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.1       0.2739076 0.1      "/>
+      </geometry>
+      <origin xyz="0.0 0.1607718497514725 0.0" rpy="0.0 0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_164_Pfote1_L_R">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_164_Pfote1_L_P">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_164_Pfote1_L_Y">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <box size="0.1   0.125 0.1  "/>
+      </geometry>
+      <origin xyz="0.0 0.1333294115960598 0.0" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.1   0.125 0.1  "/>
+      </geometry>
+      <origin xyz="0.0 0.1333294115960598 0.0" rpy="0.0 0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_165_Pfote2_L_R">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_165_Pfote2_L_P">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_165_Pfote2_L_Y">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <box size="0.125 0.25  0.05 "/>
+      </geometry>
+      <origin xyz="0.0 0.061314322426915174 0.0" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.125 0.25  0.05 "/>
+      </geometry>
+      <origin xyz="0.0 0.061314322426915174 0.0" rpy="0.0 0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_167_Oberschenkel_R_R">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_167_Oberschenkel_R_P">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_167_Oberschenkel_R_Y">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <box size="0.1       0.3878836 0.1      "/>
+      </geometry>
+      <origin xyz="0.0 0.22767080292105674 0.0" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.1       0.3878836 0.1      "/>
+      </geometry>
+      <origin xyz="0.0 0.22767080292105674 0.0" rpy="0.0 0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_168_Unterschenkel_R_R">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_168_Unterschenkel_R_P">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_168_Unterschenkel_R_Y">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <box size="0.1        0.27390768 0.1       "/>
+      </geometry>
+      <origin xyz="0.0 0.1607719000428915 0.0" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.1        0.27390768 0.1       "/>
+      </geometry>
+      <origin xyz="0.0 0.1607719000428915 0.0" rpy="0.0 0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_169_Pfote1_R_R">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_169_Pfote1_R_P">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_169_Pfote1_R_Y">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <box size="0.1   0.125 0.1  "/>
+      </geometry>
+      <origin xyz="0.0 0.13332938142120837 0.0" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.1   0.125 0.1  "/>
+      </geometry>
+      <origin xyz="0.0 0.13332938142120837 0.0" rpy="0.0 0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_170_Pfote2_R_R">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_170_Pfote2_R_P">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_170_Pfote2_R_Y">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <box size="0.125 0.25  0.05 "/>
+      </geometry>
+      <origin xyz="0.0 0.061314236931502814 0.0" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.125 0.25  0.05 "/>
+      </geometry>
+      <origin xyz="0.0 0.061314236931502814 0.0" rpy="0.0 0.0 0.0"/>
+    </collision>
+  </link>
+  <joint name="joint_136_Bauch_R" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="base_link"/>
+    <child link="link_136_Bauch_R"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="-0.0 0.235105 -0.08897749999999999" rpy="-0.220005 -0.0 0.0"/>
+  </joint>
+  <joint name="joint_136_Bauch_P" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_136_Bauch_R"/>
+    <child link="link_136_Bauch_P"/>
+    <axis xyz="0. 1. 0."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_136_Bauch_Y" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_136_Bauch_P"/>
+    <child link="link_136_Bauch_Y"/>
+    <axis xyz="0. 0. 1."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_137_Bauch.001_R" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_136_Bauch_Y"/>
+    <child link="link_137_Bauch.001_R"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="0.0 0.27047499999999997 -0.0" rpy="-0.04118 0.0 0.0"/>
+  </joint>
+  <joint name="joint_137_Bauch.001_P" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_137_Bauch.001_R"/>
+    <child link="link_137_Bauch.001_P"/>
+    <axis xyz="0. 1. 0."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_137_Bauch.001_Y" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_137_Bauch.001_P"/>
+    <child link="link_137_Bauch.001_Y"/>
+    <axis xyz="0. 0. 1."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_138_Brust_R" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_137_Bauch.001_Y"/>
+    <child link="link_138_Brust_R"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="-0.0 0.2674575 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_138_Brust_P" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_138_Brust_R"/>
+    <child link="link_138_Brust_P"/>
+    <axis xyz="0. 1. 0."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_138_Brust_Y" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_138_Brust_P"/>
+    <child link="link_138_Brust_Y"/>
+    <axis xyz="0. 0. 1."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_139_Hals_R" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_138_Brust_Y"/>
+    <child link="link_139_Hals_R"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="0.0 0.314505 0.15199000000000001" rpy="-0.818163 -0.0 -0.0"/>
+  </joint>
+  <joint name="joint_139_Hals_P" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_139_Hals_R"/>
+    <child link="link_139_Hals_P"/>
+    <axis xyz="0. 1. 0."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_139_Hals_Y" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_139_Hals_P"/>
+    <child link="link_139_Hals_Y"/>
+    <axis xyz="0. 0. 1."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_147_Schalterplatte_L_R" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_138_Brust_Y"/>
+    <child link="link_147_Schalterplatte_L_R"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="0.09552 0.22314250000000002 0.0" rpy="1.0 0.5 0.19999999999999998"/>
+  </joint>
+  <joint name="joint_147_Schalterplatte_L_P" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_147_Schalterplatte_L_R"/>
+    <child link="link_147_Schalterplatte_L_P"/>
+    <axis xyz="0. 1. 0."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_147_Schalterplatte_L_Y" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_147_Schalterplatte_L_P"/>
+    <child link="link_147_Schalterplatte_L_Y"/>
+    <axis xyz="0. 0. 1."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_148_Oberarm_L_R" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_147_Schalterplatte_L_Y"/>
+    <child link="link_148_Oberarm_L_R"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="-0.0 0.35466 0.0" rpy="1.1562 -0.429107 0.2271"/>
+  </joint>
+  <joint name="joint_148_Oberarm_L_P" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_148_Oberarm_L_R"/>
+    <child link="link_148_Oberarm_L_P"/>
+    <axis xyz="0. 1. 0."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_148_Oberarm_L_Y" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_148_Oberarm_L_P"/>
+    <child link="link_148_Oberarm_L_Y"/>
+    <axis xyz="0. 0. 1."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_149_Unterarm_L_R" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_148_Oberarm_L_Y"/>
+    <child link="link_149_Unterarm_L_R"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="-0.0 0.5070575 -0.0" rpy="-0.680181 -0.004629 -0.007738"/>
+  </joint>
+  <joint name="joint_149_Unterarm_L_P" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_149_Unterarm_L_R"/>
+    <child link="link_149_Unterarm_L_P"/>
+    <axis xyz="0. 1. 0."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_149_Unterarm_L_Y" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_149_Unterarm_L_P"/>
+    <child link="link_149_Unterarm_L_Y"/>
+    <axis xyz="0. 0. 1."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_150_Vorderpfote_L_R" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_149_Unterarm_L_Y"/>
+    <child link="link_150_Vorderpfote_L_R"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="-0.0 0.4264875 0.0" rpy="-1.399388 -0.018149 0.015267"/>
+  </joint>
+  <joint name="joint_150_Vorderpfote_L_P" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_150_Vorderpfote_L_R"/>
+    <child link="link_150_Vorderpfote_L_P"/>
+    <axis xyz="0. 1. 0."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_150_Vorderpfote_L_Y" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_150_Vorderpfote_L_P"/>
+    <child link="link_150_Vorderpfote_L_Y"/>
+    <axis xyz="0. 0. 1."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_152_Schalterplatte_R_R" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_138_Brust_Y"/>
+    <child link="link_152_Schalterplatte_R_R"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="-0.09552 0.22314250000000002 0.0" rpy="1.0 -0.5 -0.19999999999999998"/>
+  </joint>
+  <joint name="joint_152_Schalterplatte_R_P" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_152_Schalterplatte_R_R"/>
+    <child link="link_152_Schalterplatte_R_P"/>
+    <axis xyz="0. 1. 0."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_152_Schalterplatte_R_Y" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_152_Schalterplatte_R_P"/>
+    <child link="link_152_Schalterplatte_R_Y"/>
+    <axis xyz="0. 0. 1."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_153_Oberarm_R_R" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_152_Schalterplatte_R_Y"/>
+    <child link="link_153_Oberarm_R_R"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="-0.0 0.35465749999999996 0.0" rpy="1.1562 0.429107 -0.227099"/>
+  </joint>
+  <joint name="joint_153_Oberarm_R_P" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_153_Oberarm_R_R"/>
+    <child link="link_153_Oberarm_R_P"/>
+    <axis xyz="0. 1. 0."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_153_Oberarm_R_Y" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_153_Oberarm_R_P"/>
+    <child link="link_153_Oberarm_R_Y"/>
+    <axis xyz="0. 0. 1."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_154_Unterarm_R_R" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_153_Oberarm_R_Y"/>
+    <child link="link_154_Unterarm_R_R"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="-0.0 0.5070575 0.0" rpy="-0.680182 0.004629 0.007738"/>
+  </joint>
+  <joint name="joint_154_Unterarm_R_P" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_154_Unterarm_R_R"/>
+    <child link="link_154_Unterarm_R_P"/>
+    <axis xyz="0. 1. 0."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_154_Unterarm_R_Y" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_154_Unterarm_R_P"/>
+    <child link="link_154_Unterarm_R_Y"/>
+    <axis xyz="0. 0. 1."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_155_Vorderpfote_R_R" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_154_Unterarm_R_Y"/>
+    <child link="link_155_Vorderpfote_R_R"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="-0.0 0.426485 -0.0" rpy="-1.401087 0.030231 -0.085539"/>
+  </joint>
+  <joint name="joint_155_Vorderpfote_R_P" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_155_Vorderpfote_R_R"/>
+    <child link="link_155_Vorderpfote_R_P"/>
+    <axis xyz="0. 1. 0."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_155_Vorderpfote_R_Y" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_155_Vorderpfote_R_P"/>
+    <child link="link_155_Vorderpfote_R_Y"/>
+    <axis xyz="0. 0. 1."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_157_Schwanz_R" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="base_link"/>
+    <child link="link_157_Schwanz_R"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="-0.0 -0.006987500000000001 0.0313175" rpy="2.596973 -0.0 -0.0"/>
+  </joint>
+  <joint name="joint_157_Schwanz_P" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_157_Schwanz_R"/>
+    <child link="link_157_Schwanz_P"/>
+    <axis xyz="0. 1. 0."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_157_Schwanz_Y" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_157_Schwanz_P"/>
+    <child link="link_157_Schwanz_Y"/>
+    <axis xyz="0. 0. 1."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_158_Schwanz.001_R" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_157_Schwanz_Y"/>
+    <child link="link_158_Schwanz.001_R"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="-0.0 0.2276075 0.0" rpy="0.132384 -0.0 -0.0"/>
+  </joint>
+  <joint name="joint_158_Schwanz.001_P" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_158_Schwanz.001_R"/>
+    <child link="link_158_Schwanz.001_P"/>
+    <axis xyz="0. 1. 0."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_158_Schwanz.001_Y" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_158_Schwanz.001_P"/>
+    <child link="link_158_Schwanz.001_Y"/>
+    <axis xyz="0. 0. 1."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_159_Schwanz.002_R" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_158_Schwanz.001_Y"/>
+    <child link="link_159_Schwanz.002_R"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="0.0 0.1963925 0.0" rpy="0.24113399999999993 0.0 -0.0"/>
+  </joint>
+  <joint name="joint_159_Schwanz.002_P" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_159_Schwanz.002_R"/>
+    <child link="link_159_Schwanz.002_P"/>
+    <axis xyz="0. 1. 0."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_159_Schwanz.002_Y" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_159_Schwanz.002_P"/>
+    <child link="link_159_Schwanz.002_Y"/>
+    <axis xyz="0. 0. 1."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_160_Schwanz.003_R" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_159_Schwanz.002_Y"/>
+    <child link="link_160_Schwanz.003_R"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="-0.0 0.20875749999999998 -0.0" rpy="0.202521 0.0 0.0"/>
+  </joint>
+  <joint name="joint_160_Schwanz.003_P" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_160_Schwanz.003_R"/>
+    <child link="link_160_Schwanz.003_P"/>
+    <axis xyz="0. 1. 0."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_160_Schwanz.003_Y" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_160_Schwanz.003_P"/>
+    <child link="link_160_Schwanz.003_Y"/>
+    <axis xyz="0. 0. 1."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_161_Schwanz.003_end_R" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_160_Schwanz.003_Y"/>
+    <child link="link_161_Schwanz.003_end_R"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="0.0 0.2056075 -0.0" rpy="0.0 -0.0 0.0"/>
+  </joint>
+  <joint name="joint_161_Schwanz.003_end_P" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_161_Schwanz.003_end_R"/>
+    <child link="link_161_Schwanz.003_end_P"/>
+    <axis xyz="0. 1. 0."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_161_Schwanz.003_end_Y" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_161_Schwanz.003_end_P"/>
+    <child link="link_161_Schwanz.003_end_Y"/>
+    <axis xyz="0. 0. 1."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_162_Oberschenkel_L_R" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="base_link"/>
+    <child link="link_162_Oberschenkel_L_R"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="0.145925 0.13575 0.02883" rpy="1.31303 0.110237 0.069464"/>
+  </joint>
+  <joint name="joint_162_Oberschenkel_L_P" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_162_Oberschenkel_L_R"/>
+    <child link="link_162_Oberschenkel_L_P"/>
+    <axis xyz="0. 1. 0."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_162_Oberschenkel_L_Y" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_162_Oberschenkel_L_P"/>
+    <child link="link_162_Oberschenkel_L_Y"/>
+    <axis xyz="0. 0. 1."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_163_Unterschenkel_L_R" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_162_Oberschenkel_L_Y"/>
+    <child link="link_163_Unterschenkel_L_R"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="0.0 0.42161 0.0" rpy="0.652041 -0.114489 0.09771499999999997"/>
+  </joint>
+  <joint name="joint_163_Unterschenkel_L_P" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_163_Unterschenkel_L_R"/>
+    <child link="link_163_Unterschenkel_L_P"/>
+    <axis xyz="0. 1. 0."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_163_Unterschenkel_L_Y" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_163_Unterschenkel_L_P"/>
+    <child link="link_163_Unterschenkel_L_Y"/>
+    <axis xyz="0. 0. 1."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_164_Pfote1_L_R" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_163_Unterschenkel_L_Y"/>
+    <child link="link_164_Pfote1_L_R"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="-0.0 0.297725 0.0" rpy="-0.579425 0.032097 -0.125695"/>
+  </joint>
+  <joint name="joint_164_Pfote1_L_P" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_164_Pfote1_L_R"/>
+    <child link="link_164_Pfote1_L_P"/>
+    <axis xyz="0. 1. 0."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_164_Pfote1_L_Y" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_164_Pfote1_L_P"/>
+    <child link="link_164_Pfote1_L_Y"/>
+    <axis xyz="0. 0. 1."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_165_Pfote2_L_R" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_164_Pfote1_L_Y"/>
+    <child link="link_165_Pfote2_L_R"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="-0.0 0.2469075 0.0" rpy="-1.581772 -0.076922 0.077736"/>
+  </joint>
+  <joint name="joint_165_Pfote2_L_P" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_165_Pfote2_L_R"/>
+    <child link="link_165_Pfote2_L_P"/>
+    <axis xyz="0. 1. 0."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_165_Pfote2_L_Y" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_165_Pfote2_L_P"/>
+    <child link="link_165_Pfote2_L_Y"/>
+    <axis xyz="0. 0. 1."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_167_Oberschenkel_R_R" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="base_link"/>
+    <child link="link_167_Oberschenkel_R_R"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="-0.145925 0.13575 0.02883" rpy="1.31303 -0.110236 -0.069463"/>
+  </joint>
+  <joint name="joint_167_Oberschenkel_R_P" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_167_Oberschenkel_R_R"/>
+    <child link="link_167_Oberschenkel_R_P"/>
+    <axis xyz="0. 1. 0."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_167_Oberschenkel_R_Y" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_167_Oberschenkel_R_P"/>
+    <child link="link_167_Oberschenkel_R_Y"/>
+    <axis xyz="0. 0. 1."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_168_Unterschenkel_R_R" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_167_Oberschenkel_R_Y"/>
+    <child link="link_168_Unterschenkel_R_R"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="0.0 0.42161249999999995 -0.0" rpy="0.652041 0.114489 -0.09771499999999997"/>
+  </joint>
+  <joint name="joint_168_Unterschenkel_R_P" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_168_Unterschenkel_R_R"/>
+    <child link="link_168_Unterschenkel_R_P"/>
+    <axis xyz="0. 1. 0."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_168_Unterschenkel_R_Y" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_168_Unterschenkel_R_P"/>
+    <child link="link_168_Unterschenkel_R_Y"/>
+    <axis xyz="0. 0. 1."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_169_Pfote1_R_R" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_168_Unterschenkel_R_Y"/>
+    <child link="link_169_Pfote1_R_R"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="0.0 0.297725 0.0" rpy="-0.579415 -0.032098 0.12569400000000006"/>
+  </joint>
+  <joint name="joint_169_Pfote1_R_P" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_169_Pfote1_R_R"/>
+    <child link="link_169_Pfote1_R_P"/>
+    <axis xyz="0. 1. 0."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_169_Pfote1_R_Y" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_169_Pfote1_R_P"/>
+    <child link="link_169_Pfote1_R_Y"/>
+    <axis xyz="0. 0. 1."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_170_Pfote2_R_R" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_169_Pfote1_R_Y"/>
+    <child link="link_170_Pfote2_R_R"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="0.0 0.246905 0.0" rpy="-1.581782 0.076922 -0.077736"/>
+  </joint>
+  <joint name="joint_170_Pfote2_R_P" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_170_Pfote2_R_R"/>
+    <child link="link_170_Pfote2_R_P"/>
+    <axis xyz="0. 1. 0."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_170_Pfote2_R_Y" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_170_Pfote2_R_P"/>
+    <child link="link_170_Pfote2_R_Y"/>
+    <axis xyz="0. 0. 1."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <material name="mat_col_(0.8901960784313725, 0.10196078431372549, 0.10980392156862745)">
+    <color rgba="0.89 0.1  0.11 1.  "/>
+  </material>
+  <material name="mat_col_(0.9921568627450981, 0.7490196078431373, 0.43529411764705883)">
+    <color rgba="0.99 0.75 0.44 1.  "/>
+  </material>
+  <material name="mat_col_(0.6941176470588235, 0.34901960784313724, 0.1568627450980392)">
+    <color rgba="0.69 0.35 0.16 1.  "/>
+  </material>
+  <material name="mat_col_(0.12156862745098039, 0.47058823529411764, 0.7058823529411765)">
+    <color rgba="0.12 0.47 0.71 1.  "/>
+  </material>
+  <material name="mat_col_(1.0, 0.4980392156862745, 0.0)">
+    <color rgba="1.  0.5 0.  1. "/>
+  </material>
+  <material name="mat_col_(0.2, 0.6274509803921569, 0.17254901960784313)">
+    <color rgba="0.2  0.63 0.17 1.  "/>
+  </material>
+  <material name="mat_col_(0.984313725490196, 0.6039215686274509, 0.6)">
+    <color rgba="0.98 0.6  0.6  1.  "/>
+  </material>
+  <material name="mat_col_(1.0, 1.0, 0.6)">
+    <color rgba="1.  1.  0.6 1. "/>
+  </material>
+  <material name="mat_col_(0.6980392156862745, 0.8745098039215686, 0.5411764705882353)">
+    <color rgba="0.7  0.87 0.54 1.  "/>
+  </material>
+  <material name="mat_col_(0.41568627450980394, 0.23921568627450981, 0.6039215686274509)">
+    <color rgba="0.42 0.24 0.6  1.  "/>
+  </material>
+  <material name="mat_col_(0.6509803921568628, 0.807843137254902, 0.8901960784313725)">
+    <color rgba="0.65 0.81 0.89 1.  "/>
+  </material>
+</robot>
