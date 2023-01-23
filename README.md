@@ -6,3 +6,13 @@ This repo is currently under development. It will contain the pre-trained catego
 
 See `demo.ipynb` for a interactive demo visualizing learned morphology and articulations.
 ![Screenshot 2023-01-22 at 9 58 34 PM](https://user-images.githubusercontent.com/13134872/213958804-a78f2a17-bea6-46ac-8a9c-8e321ff4df44.png)
+
+
+## Pretrained models
+```
+# download optimized model
+wget https://www.dropbox.com/sh/h1w82lb4rg48jui/AACD8q-DCFjyDhRx0-j7EjWLa -O tmp.zip
+mkdir -p logdir
+unzip tmp.zip -d ./logdir
+rm tmp.zip
+```
