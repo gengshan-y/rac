@@ -6,7 +6,7 @@
 
 
 ### Updates
-- [05/07/2023] We plan to release an re-implementation of training code through [lab4d](https://github.com/lab4d-org/lab4d).
+- [05/07/2023] We plan to release re-implementation of training code through [lab4d](https://github.com/lab4d-org/lab4d).
 - [01/22/2023] This repo is under development. It will contain the pre-trained category models of cats, dogs, and human.
 
 
