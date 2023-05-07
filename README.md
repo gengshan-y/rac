@@ -11,15 +11,22 @@
 
 
 ### Install
+
+We recommend using mamba to install, which is much faster conda in resolving conflicts.
+To install mamba, do 
+```conda install -c conda-forge mamba -y```
+Then you may replace `conda install` with `mamba install`
+
 ```
 git clone git@github.com:gengshan-y/rac.git --recursive
 cd rac
 
 # base dependencies
-conda env create -f misc/rac-cu113.yml
+mamba env create -f misc/rac-env.yml -y
 
 # other dependencies
-conda activate rac-cu113
+conda activate rac
+pip install git+https://github.com/pytorch/functorch.git@a6e0e61
 pip install git+https://github.com/facebookresearch/pytorch3d.git
 cd quaternion; python setup.py install; cd -
 ```
@@ -33,15 +40,21 @@ unzip tmp.zip -d ./logdir
 rm tmp.zip
 ```
 
+### Shape interplation
+```
+python explore.py --flagfile logdir/dog80-v0/opts.log --nolineload --seqname dog80 --full_mesh --noce_color --svid 69 --tvid 45 --interp_beta
+```
+It interpolates the shape between the source video 69 and target video 45. Results are saved at `logdir/dog80-v0/explore-interp-69.mp4`.
+
+![interp](https://user-images.githubusercontent.com/13134872/236706537-89627d39-e044-4312-8142-d16eb6b87c40.gif)
+
 ### Re-targeting
 ```
 python explore.py --flagfile logdir/dog80-v0/opts.log --nolineload --seqname dog80 --full_mesh --noce_color --svid 69 --tvid 45
 ```
-retargets the source video 69 to target video 45. Results are saved at `logdir/dog80-v0/explore-motion-69.mp4`.
+It retargets the source video 69 to target video 45. Results are saved at `logdir/dog80-v0/explore-motion-69.mp4`.
 
-https://user-images.githubusercontent.com/13134872/236701581-4b34131a-aee7-45b3-9b3e-63b4af4940e5.mp4
-
-
+![retarget](https://user-images.githubusercontent.com/13134872/236706546-bbb50529-ea0e-4726-8414-c466738b304a.gif)
 
 ### Demo
 See `demo.ipynb` for an interactive demo visualizing learned morphology and articulations.
