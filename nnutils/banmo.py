@@ -551,11 +551,12 @@ class banmo(nn.Module):
                             .export('tmp/%s.obj'%canonical_mesh_name)
             
             if opts.unc_filter:
-                from utils.cselib import create_cse
-                # load surface embedding
-                _, _, mesh_vertex_embeddings = create_cse(config_path,
-                                                                weight_path)
-                self.dp_embed = mesh_vertex_embeddings[canonical_mesh_name]
+                pass
+                #from utils.cselib import create_cse
+                ## load surface embedding
+                #_, _, mesh_vertex_embeddings = create_cse(config_path,
+                #                                                weight_path)
+                #self.dp_embed = mesh_vertex_embeddings[canonical_mesh_name]
 
         # add densepose mlp
         if opts.use_embed:

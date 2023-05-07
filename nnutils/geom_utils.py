@@ -2090,11 +2090,11 @@ def extract_mesh_simp(model,chunk,grid_size,
             else:
                 suffix='%02d'%(vidid)
     
-            # fix non watertight meshes
-            import pymeshfix
-            meshfix = pymeshfix.MeshFix(mesh.vertices, mesh.faces)
-            meshfix.repair()
-            mesh = trimesh.Trimesh(meshfix.v, meshfix.f)
+            ## fix non watertight meshes
+            #import pymeshfix
+            #meshfix = pymeshfix.MeshFix(mesh.vertices, mesh.faces)
+            #meshfix.repair()
+            #mesh = trimesh.Trimesh(meshfix.v, meshfix.f)
 
             mesh.export('tmp/input-%s.obj'%suffix)
             try:
@@ -2102,14 +2102,14 @@ def extract_mesh_simp(model,chunk,grid_size,
                 mesh = trimesh.load('tmp/simple-%s.obj'%suffix)
             except:
                 print('simplification failed')
-                # smooth the mesh (slow)
-                import pymeshlab
-                ms = pymeshlab.MeshSet()
-                ms.add_mesh(pymeshlab.Mesh(mesh.vertices, mesh.faces), "name")
-                p = pymeshlab.Percentage(1) # use larger values to get smoother mesh
-                mesh_isotropic = ms.meshing_isotropic_explicit_remeshing(targetlen=p)
-                mesh = trimesh.Trimesh( ms.current_mesh().vertex_matrix(),
-                                        ms.current_mesh().face_matrix())
+                ## smooth the mesh (slow)
+                #import pymeshlab
+                #ms = pymeshlab.MeshSet()
+                #ms.add_mesh(pymeshlab.Mesh(mesh.vertices, mesh.faces), "name")
+                #p = pymeshlab.Percentage(1) # use larger values to get smoother mesh
+                #mesh_isotropic = ms.meshing_isotropic_explicit_remeshing(targetlen=p)
+                #mesh = trimesh.Trimesh( ms.current_mesh().vertex_matrix(),
+                #                        ms.current_mesh().face_matrix())
 
         # assign color based on canonical location
         vis = mesh.vertices

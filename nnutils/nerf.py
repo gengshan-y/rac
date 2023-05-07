@@ -8,9 +8,7 @@ import torch
 from torch import nn
 import torch.nn.functional as F
 import torchvision
-try:
-    from functorch import vmap, combine_state_for_ensemble
-except: pass
+from functorch import vmap, combine_state_for_ensemble
 from pytorch3d import transforms
 import trimesh
 from nnutils.geom_utils import fid_reindex

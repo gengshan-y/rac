@@ -29,7 +29,7 @@ opts = flags.FLAGS
 flags.DEFINE_bool('interp_beta',False,'whether to interp code')
 flags.DEFINE_bool('apply_lbs',True,'whether to apply lbs')
 flags.DEFINE_integer('svid',69,'beta of the source mesh')
-flags.DEFINE_integer('tvid',69,'beta of the target mesh')
+flags.DEFINE_integer('tvid',45,'beta of the target mesh')
 flags.DEFINE_integer('tcap',-1,'cap number of target frames')
             
 def get_center_crop(img_path, img_size=None):
