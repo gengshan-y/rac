@@ -22,7 +22,6 @@ import pyrender
 from nnutils.train_utils import v2s_trainer
 from nnutils.geom_utils import extract_mesh_simp, zero_to_rest_bone, \
                                 zero_to_rest_dpose, skinning, lbs, se3exp_to_vec
-
 from utils.io import save_vid, str_to_frame, save_bones, bones_to_mesh
 opts = flags.FLAGS
 
@@ -37,13 +36,17 @@ def get_center_crop(img_path, img_size=None):
     sil_path = img_path.replace('JPEGImages', 'Annotations').replace('.jpg', '.png')
     img = cv2.imread(img_path)[:,:,::-1].copy()
     sil = cv2.imread(sil_path,0)
-    indices = np.where(sil>0); xid = indices[1]; yid = indices[0]
-    center = ( int((xid.max()+xid.min())/2), int((yid.max()+yid.min())/2) )
-    length = int(1.2*max(xid.max()-xid.min(), yid.max()-yid.min()))
-    img = torchvision.transforms.functional.crop(torch.Tensor(img).permute(2,0,1), 
+    try:
+        indices = np.where(sil>0); xid = indices[1]; yid = indices[0]
+        center = ( int((xid.max()+xid.min())/2), int((yid.max()+yid.min())/2) )
+        length = int(1.2*max(xid.max()-xid.min(), yid.max()-yid.min()))
+        img = torchvision.transforms.functional.crop(torch.Tensor(img).permute(2,0,1), 
                     center[1]-length//2, center[0]-length//2, length, length)
+        img = img.permute(1,2,0).numpy()
+    except:
+        pass
     if img_size is not None:
-        img = cv2.resize(img.permute(1,2,0).numpy(), (img_size, img_size))
+        img = cv2.resize(img, (img_size, img_size))
     return img
 
 def render_mesh(renderer, mesh_rest, canonical_rot, cam_offset, focal_fac, img_size):

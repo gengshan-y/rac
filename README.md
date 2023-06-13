@@ -6,6 +6,7 @@
 
 
 ### Updates
+- [06/13/2023] Added the cat/human model and image data necessary to run the demo.
 - [05/07/2023] We plan to release re-implementation of training code through [lab4d](https://github.com/lab4d-org/lab4d).
 - [01/22/2023] This repo is under development. It will contain the pre-trained category models of cats, dogs, and human.
 
@@ -31,13 +32,17 @@ pip install git+https://github.com/facebookresearch/pytorch3d.git
 cd quaternion; python setup.py install; cd -
 ```
 
-### Pretrained models
+### Pretrained models and data
 ```
 # download model weights
-wget https://www.dropbox.com/sh/h1w82lb4rg48jui/AACD8q-DCFjyDhRx0-j7EjWLa -O tmp.zip
-mkdir -p logdir
-unzip tmp.zip -d ./logdir
+wget  https://www.dropbox.com/s/9pkjuh04d3kqqi8/models.zip -O tmp.zip
+unzip tmp.zip
 rm tmp.zip
+
+# image data (8.7G) needed to run the demo code.
+wget https://www.dropbox.com/s/83vbapisomf49rl/rac-data-v1.zip
+unzip rac-data-v1.zip 
+rm rac-data-v1.zip
 ```
 
 ### Shape interplation

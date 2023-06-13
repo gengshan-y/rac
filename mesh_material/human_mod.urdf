@@ -1,0 +1,1240 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<robot name="Armature">
+  <link name="base_link">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <box size="0.4  0.06 0.2 "/>
+      </geometry>
+      <origin xyz="0.0 0.05501666396856308 0.0" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.4  0.06 0.2 "/>
+      </geometry>
+      <origin xyz="0.0 0.05501666396856308 0.0" rpy="0.0 0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_01_mixamorig:Spine_R">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_01_mixamorig:Spine_P">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_01_mixamorig:Spine_Y">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <box size="0.4  0.06 0.2 "/>
+      </geometry>
+      <origin xyz="0.0 0.0583047491312027 0.0" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.4  0.06 0.2 "/>
+      </geometry>
+      <origin xyz="0.0 0.0583047491312027 0.0" rpy="0.0 0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_02_mixamorig:Spine1_R">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_02_mixamorig:Spine1_P">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_02_mixamorig:Spine1_Y">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <box size="0.4  0.06 0.2 "/>
+      </geometry>
+      <origin xyz="0.0 0.06870513528585434 0.0" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.4  0.06 0.2 "/>
+      </geometry>
+      <origin xyz="0.0 0.06870513528585434 0.0" rpy="0.0 0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_03_mixamorig:Spine2_R">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_03_mixamorig:Spine2_P">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_03_mixamorig:Spine2_Y">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <box size="0.04 0.1  0.2 "/>
+      </geometry>
+      <origin xyz="0.0 0.06373562291264534 0.0" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.04 0.1  0.2 "/>
+      </geometry>
+      <origin xyz="0.0 0.06373562291264534 0.0" rpy="0.0 0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_05_mixamorig:Head_R">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_05_mixamorig:Head_P">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_05_mixamorig:Head_Y">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <box size="0.2 0.2 0.2"/>
+      </geometry>
+      <origin xyz="0.0 0.2 0.0" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.2 0.2 0.2"/>
+      </geometry>
+      <origin xyz="0.0 0.2 0.0" rpy="0.0 0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_09_mixamorig:LeftShoulder_R">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_09_mixamorig:LeftShoulder_P">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_09_mixamorig:LeftShoulder_Y">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <box size="0.2  0.1  0.04"/>
+      </geometry>
+      <origin xyz="0.0 0.06561912104487419 0.0" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.2  0.1  0.04"/>
+      </geometry>
+      <origin xyz="0.0 0.06561912104487419 0.0" rpy="0.0 0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_10_mixamorig:LeftArm_R">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_10_mixamorig:LeftArm_P">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_10_mixamorig:LeftArm_Y">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <box size="0.1 0.2 0.1"/>
+      </geometry>
+      <origin xyz="0.0 0.13607898831367493 0.0" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.1 0.2 0.1"/>
+      </geometry>
+      <origin xyz="0.0 0.13607898831367493 0.0" rpy="0.0 0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_11_mixamorig:LeftForeArm_R">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_11_mixamorig:LeftForeArm_P">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_11_mixamorig:LeftForeArm_Y">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <box size="0.1 0.2 0.1"/>
+      </geometry>
+      <origin xyz="0.0 0.13026777863502503 0.0" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.1 0.2 0.1"/>
+      </geometry>
+      <origin xyz="0.0 0.13026777863502503 0.0" rpy="0.0 0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_12_mixamorig:LeftHand_R">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_12_mixamorig:LeftHand_P">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_12_mixamorig:LeftHand_Y">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <box size="0.1 0.1 0.1"/>
+      </geometry>
+      <origin xyz="0.0 0.05887632116675377 0.0" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.1 0.1 0.1"/>
+      </geometry>
+      <origin xyz="0.0 0.05887632116675377 0.0" rpy="0.0 0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_13_mixamorig:RightShoulder_R">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_13_mixamorig:RightShoulder_P">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_13_mixamorig:RightShoulder_Y">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <box size="0.2  0.1  0.04"/>
+      </geometry>
+      <origin xyz="0.0 0.06638108029961585 0.0" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.2  0.1  0.04"/>
+      </geometry>
+      <origin xyz="0.0 0.06638108029961585 0.0" rpy="0.0 0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_14_mixamorig:RightArm_R">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_14_mixamorig:RightArm_P">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_14_mixamorig:RightArm_Y">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <box size="0.1 0.2 0.1"/>
+      </geometry>
+      <origin xyz="0.0 0.1378442895412445 0.0" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.1 0.2 0.1"/>
+      </geometry>
+      <origin xyz="0.0 0.1378442895412445 0.0" rpy="0.0 0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_15_mixamorig:RightForeArm_R">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_15_mixamorig:RightForeArm_P">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_15_mixamorig:RightForeArm_Y">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <box size="0.1 0.2 0.1"/>
+      </geometry>
+      <origin xyz="0.0 0.12419629275798798 0.0" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.1 0.2 0.1"/>
+      </geometry>
+      <origin xyz="0.0 0.12419629275798798 0.0" rpy="0.0 0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_16_mixamorig:RightHand_R">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_16_mixamorig:RightHand_P">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_16_mixamorig:RightHand_Y">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <box size="0.1 0.1 0.1"/>
+      </geometry>
+      <origin xyz="0.0 0.05540431827306747 0.0" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.1 0.1 0.1"/>
+      </geometry>
+      <origin xyz="0.0 0.05540431827306747 0.0" rpy="0.0 0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_17_mixamorig:LeftUpLeg_R">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_17_mixamorig:LeftUpLeg_P">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_17_mixamorig:LeftUpLeg_Y">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <box size="0.1       0.3584992 0.1      "/>
+      </geometry>
+      <origin xyz="0.0 0.21042344927787782 0.0" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.1       0.3584992 0.1      "/>
+      </geometry>
+      <origin xyz="0.0 0.21042344927787782 0.0" rpy="0.0 0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_18_mixamorig:LeftLeg_R">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_18_mixamorig:LeftLeg_P">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_18_mixamorig:LeftLeg_Y">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <box size="0.1       0.3598682 0.1      "/>
+      </geometry>
+      <origin xyz="0.0 0.2112269854545593 0.0" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.1       0.3598682 0.1      "/>
+      </geometry>
+      <origin xyz="0.0 0.2112269854545593 0.0" rpy="0.0 0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_19_mixamorig:LeftFoot_R">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_19_mixamorig:LeftFoot_P">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_19_mixamorig:LeftFoot_Y">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <box size="0.1  0.2  0.02"/>
+      </geometry>
+      <origin xyz="0.0 0.08 -0.04" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.1  0.2  0.02"/>
+      </geometry>
+      <origin xyz="0.0 0.08 -0.04" rpy="0.0 0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_22_mixamorig:RightUpLeg_R">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_22_mixamorig:RightUpLeg_P">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_22_mixamorig:RightUpLeg_Y">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <box size="0.1        0.35670768 0.1       "/>
+      </geometry>
+      <origin xyz="0.0 0.20937189996242522 0.0" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.1        0.35670768 0.1       "/>
+      </geometry>
+      <origin xyz="0.0 0.20937189996242522 0.0" rpy="0.0 0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_23_mixamorig:RightLeg_R">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_23_mixamorig:RightLeg_P">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_23_mixamorig:RightLeg_Y">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <box size="0.1        0.35923014 0.1       "/>
+      </geometry>
+      <origin xyz="0.0 0.21085247933864593 0.0" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.1        0.35923014 0.1       "/>
+      </geometry>
+      <origin xyz="0.0 0.21085247933864593 0.0" rpy="0.0 0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_24_mixamorig:RightFoot_R">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_24_mixamorig:RightFoot_P">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+    </inertial>
+    <collision name="collision">
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="link_24_mixamorig:RightFoot_Y">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <box size="0.1  0.2  0.02"/>
+      </geometry>
+      <origin xyz="0.0 0.08 -0.04" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.1  0.2  0.02"/>
+      </geometry>
+      <origin xyz="0.0 0.08 -0.04" rpy="0.0 0.0 0.0"/>
+    </collision>
+  </link>
+  <joint name="joint_01_mixamorig:Spine_R" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="base_link"/>
+    <child link="link_01_mixamorig:Spine_R"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="-0.00089 0.090532 -0.01778" rpy="-0.100091 -0.0 0.011507000000000003"/>
+  </joint>
+  <joint name="joint_01_mixamorig:Spine_P" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_01_mixamorig:Spine_R"/>
+    <child link="link_01_mixamorig:Spine_P"/>
+    <axis xyz="0. 1. 0."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_01_mixamorig:Spine_Y" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_01_mixamorig:Spine_P"/>
+    <child link="link_01_mixamorig:Spine_Y"/>
+    <axis xyz="0. 0. 1."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_02_mixamorig:Spine1_R" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_01_mixamorig:Spine_Y"/>
+    <child link="link_02_mixamorig:Spine1_R"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="-0.0 0.107972 -0.0" rpy="0.057125 0.000758 -0.007545"/>
+  </joint>
+  <joint name="joint_02_mixamorig:Spine1_P" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_02_mixamorig:Spine1_R"/>
+    <child link="link_02_mixamorig:Spine1_P"/>
+    <axis xyz="0. 1. 0."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_02_mixamorig:Spine1_Y" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_02_mixamorig:Spine1_P"/>
+    <child link="link_02_mixamorig:Spine1_Y"/>
+    <axis xyz="0. 0. 1."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_03_mixamorig:Spine2_R" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_02_mixamorig:Spine1_Y"/>
+    <child link="link_03_mixamorig:Spine2_R"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="0.0 0.127232 0.0" rpy="0.16345 0.000961 -0.022349"/>
+  </joint>
+  <joint name="joint_03_mixamorig:Spine2_P" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_03_mixamorig:Spine2_R"/>
+    <child link="link_03_mixamorig:Spine2_P"/>
+    <axis xyz="0. 1. 0."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_03_mixamorig:Spine2_Y" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_03_mixamorig:Spine2_P"/>
+    <child link="link_03_mixamorig:Spine2_Y"/>
+    <axis xyz="0. 0. 1."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_05_mixamorig:Head_R" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_03_mixamorig:Spine2_Y"/>
+    <child link="link_05_mixamorig:Head_R"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="0.0 0.12 -0.0" rpy="0.0 0.0 2e-06"/>
+  </joint>
+  <joint name="joint_05_mixamorig:Head_P" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_05_mixamorig:Head_R"/>
+    <child link="link_05_mixamorig:Head_P"/>
+    <axis xyz="0. 1. 0."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_05_mixamorig:Head_Y" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_05_mixamorig:Head_P"/>
+    <child link="link_05_mixamorig:Head_Y"/>
+    <axis xyz="0. 0. 1."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_09_mixamorig:LeftShoulder_R" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_03_mixamorig:Spine2_Y"/>
+    <child link="link_09_mixamorig:LeftShoulder_R"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="0.057612 0.088286 0.001642" rpy="-0.9181966535897931 1.3717626535897933 -2.450323653589793"/>
+  </joint>
+  <joint name="joint_09_mixamorig:LeftShoulder_P" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_09_mixamorig:LeftShoulder_R"/>
+    <child link="link_09_mixamorig:LeftShoulder_P"/>
+    <axis xyz="0. 1. 0."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_09_mixamorig:LeftShoulder_Y" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_09_mixamorig:LeftShoulder_P"/>
+    <child link="link_09_mixamorig:LeftShoulder_Y"/>
+    <axis xyz="0. 0. 1."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_10_mixamorig:LeftArm_R" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_09_mixamorig:LeftShoulder_Y"/>
+    <child link="link_10_mixamorig:LeftArm_R"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="0.0 0.121516 0.0" rpy="0.029469 0.0 0.153105"/>
+  </joint>
+  <joint name="joint_10_mixamorig:LeftArm_P" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_10_mixamorig:LeftArm_R"/>
+    <child link="link_10_mixamorig:LeftArm_P"/>
+    <axis xyz="0. 1. 0."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_10_mixamorig:LeftArm_Y" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_10_mixamorig:LeftArm_P"/>
+    <child link="link_10_mixamorig:LeftArm_Y"/>
+    <axis xyz="0. 0. 1."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_11_mixamorig:LeftForeArm_R" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_10_mixamorig:LeftArm_Y"/>
+    <child link="link_11_mixamorig:LeftForeArm_R"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="-0.0 0.251998 -0.0" rpy="2e-06 0.0 0.0"/>
+  </joint>
+  <joint name="joint_11_mixamorig:LeftForeArm_P" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_11_mixamorig:LeftForeArm_R"/>
+    <child link="link_11_mixamorig:LeftForeArm_P"/>
+    <axis xyz="0. 1. 0."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_11_mixamorig:LeftForeArm_Y" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_11_mixamorig:LeftForeArm_P"/>
+    <child link="link_11_mixamorig:LeftForeArm_Y"/>
+    <axis xyz="0. 0. 1."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_12_mixamorig:LeftHand_R" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_11_mixamorig:LeftForeArm_Y"/>
+    <child link="link_12_mixamorig:LeftHand_R"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="-0.0 0.241236 -0.0" rpy="-2e-06 -0.0 -0.0"/>
+  </joint>
+  <joint name="joint_12_mixamorig:LeftHand_P" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_12_mixamorig:LeftHand_R"/>
+    <child link="link_12_mixamorig:LeftHand_P"/>
+    <axis xyz="0. 1. 0."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_12_mixamorig:LeftHand_Y" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_12_mixamorig:LeftHand_P"/>
+    <child link="link_12_mixamorig:LeftHand_Y"/>
+    <axis xyz="0. 0. 1."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_13_mixamorig:RightShoulder_R" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_03_mixamorig:Spine2_Y"/>
+    <child link="link_13_mixamorig:RightShoulder_R"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="-0.059378 0.087326 -0.000532" rpy="-1.0298106535897933 -1.3352026535897932 2.6138416535897933"/>
+  </joint>
+  <joint name="joint_13_mixamorig:RightShoulder_P" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_13_mixamorig:RightShoulder_R"/>
+    <child link="link_13_mixamorig:RightShoulder_P"/>
+    <axis xyz="0. 1. 0."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_13_mixamorig:RightShoulder_Y" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_13_mixamorig:RightShoulder_P"/>
+    <child link="link_13_mixamorig:RightShoulder_Y"/>
+    <axis xyz="0. 0. 1."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_14_mixamorig:RightArm_R" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_13_mixamorig:RightShoulder_Y"/>
+    <child link="link_14_mixamorig:RightArm_R"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="-0.0 0.122928 -0.0" rpy="0.017502 -1e-06 -0.203056"/>
+  </joint>
+  <joint name="joint_14_mixamorig:RightArm_P" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_14_mixamorig:RightArm_R"/>
+    <child link="link_14_mixamorig:RightArm_P"/>
+    <axis xyz="0. 1. 0."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_14_mixamorig:RightArm_Y" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_14_mixamorig:RightArm_P"/>
+    <child link="link_14_mixamorig:RightArm_Y"/>
+    <axis xyz="0. 0. 1."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_15_mixamorig:RightForeArm_R" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_14_mixamorig:RightArm_Y"/>
+    <child link="link_15_mixamorig:RightForeArm_R"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="-0.0 0.255268 -0.0" rpy="-0.0 -0.0 -0.0"/>
+  </joint>
+  <joint name="joint_15_mixamorig:RightForeArm_P" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_15_mixamorig:RightForeArm_R"/>
+    <child link="link_15_mixamorig:RightForeArm_P"/>
+    <axis xyz="0. 1. 0."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_15_mixamorig:RightForeArm_Y" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_15_mixamorig:RightForeArm_P"/>
+    <child link="link_15_mixamorig:RightForeArm_Y"/>
+    <axis xyz="0. 0. 1."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_16_mixamorig:RightHand_R" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_15_mixamorig:RightForeArm_Y"/>
+    <child link="link_16_mixamorig:RightHand_R"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="-0.0 0.229994 -0.0" rpy="-0.0 1e-06 -3e-06"/>
+  </joint>
+  <joint name="joint_16_mixamorig:RightHand_P" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_16_mixamorig:RightHand_R"/>
+    <child link="link_16_mixamorig:RightHand_P"/>
+    <axis xyz="0. 1. 0."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_16_mixamorig:RightHand_Y" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_16_mixamorig:RightHand_P"/>
+    <child link="link_16_mixamorig:RightHand_Y"/>
+    <axis xyz="0. 0. 1."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_17_mixamorig:LeftUpLeg_R" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="base_link"/>
+    <child link="link_17_mixamorig:LeftUpLeg_R"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="0.084678 -0.063258 0.012168" rpy="-0.017724 -8.4e-05 3.136825"/>
+  </joint>
+  <joint name="joint_17_mixamorig:LeftUpLeg_P" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_17_mixamorig:LeftUpLeg_R"/>
+    <child link="link_17_mixamorig:LeftUpLeg_P"/>
+    <axis xyz="0. 1. 0."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_17_mixamorig:LeftUpLeg_Y" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_17_mixamorig:LeftUpLeg_P"/>
+    <child link="link_17_mixamorig:LeftUpLeg_Y"/>
+    <axis xyz="0. 0. 1."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_18_mixamorig:LeftLeg_R" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_17_mixamorig:LeftUpLeg_Y"/>
+    <child link="link_18_mixamorig:LeftLeg_R"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="0.0 0.389674 0.0" rpy="-0.042433 0.000222 0.010031"/>
+  </joint>
+  <joint name="joint_18_mixamorig:LeftLeg_P" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_18_mixamorig:LeftLeg_R"/>
+    <child link="link_18_mixamorig:LeftLeg_P"/>
+    <axis xyz="0. 1. 0."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_18_mixamorig:LeftLeg_Y" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_18_mixamorig:LeftLeg_P"/>
+    <child link="link_18_mixamorig:LeftLeg_Y"/>
+    <axis xyz="0. 0. 1."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_19_mixamorig:LeftFoot_R" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_18_mixamorig:LeftLeg_Y"/>
+    <child link="link_19_mixamorig:LeftFoot_R"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="-0.0 0.391162 0.0" rpy="1.57 0.0 0.0"/>
+  </joint>
+  <joint name="joint_19_mixamorig:LeftFoot_P" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_19_mixamorig:LeftFoot_R"/>
+    <child link="link_19_mixamorig:LeftFoot_P"/>
+    <axis xyz="0. 1. 0."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_19_mixamorig:LeftFoot_Y" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_19_mixamorig:LeftFoot_P"/>
+    <child link="link_19_mixamorig:LeftFoot_Y"/>
+    <axis xyz="0. 0. 1."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_22_mixamorig:RightUpLeg_R" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="base_link"/>
+    <child link="link_22_mixamorig:RightUpLeg_R"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="-0.084294 -0.065878 0.000734" rpy="0.01182 -7.9e-05 -3.135117"/>
+  </joint>
+  <joint name="joint_22_mixamorig:RightUpLeg_P" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_22_mixamorig:RightUpLeg_R"/>
+    <child link="link_22_mixamorig:RightUpLeg_P"/>
+    <axis xyz="0. 1. 0."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_22_mixamorig:RightUpLeg_Y" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_22_mixamorig:RightUpLeg_P"/>
+    <child link="link_22_mixamorig:RightUpLeg_Y"/>
+    <axis xyz="0. 0. 1."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_23_mixamorig:RightLeg_R" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_22_mixamorig:RightUpLeg_Y"/>
+    <child link="link_23_mixamorig:RightLeg_R"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="-0.0 0.387726 -0.0" rpy="-0.072235 -0.000501 -0.013411"/>
+  </joint>
+  <joint name="joint_23_mixamorig:RightLeg_P" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_23_mixamorig:RightLeg_R"/>
+    <child link="link_23_mixamorig:RightLeg_P"/>
+    <axis xyz="0. 1. 0."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_23_mixamorig:RightLeg_Y" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_23_mixamorig:RightLeg_P"/>
+    <child link="link_23_mixamorig:RightLeg_Y"/>
+    <axis xyz="0. 0. 1."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_24_mixamorig:RightFoot_R" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_23_mixamorig:RightLeg_Y"/>
+    <child link="link_24_mixamorig:RightFoot_R"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="0.0 0.390468 0.0" rpy="1.57 0.0 0.0"/>
+  </joint>
+  <joint name="joint_24_mixamorig:RightFoot_P" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_24_mixamorig:RightFoot_R"/>
+    <child link="link_24_mixamorig:RightFoot_P"/>
+    <axis xyz="0. 1. 0."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="joint_24_mixamorig:RightFoot_Y" type="revolute">
+    <limit effort="100.0" velocity="3.0" lower="-1.5707963267948966" upper="1.5707963267948966"/>
+    <parent link="link_24_mixamorig:RightFoot_P"/>
+    <child link="link_24_mixamorig:RightFoot_Y"/>
+    <axis xyz="0. 0. 1."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <material name="mat_col_(0.792156862745098, 0.6980392156862745, 0.8392156862745098)">
+    <color rgba="0.79 0.7  0.84 1.  "/>
+  </material>
+  <material name="mat_col_(1.0, 1.0, 0.6)">
+    <color rgba="1.  1.  0.6 1. "/>
+  </material>
+  <material name="mat_col_(0.6980392156862745, 0.8745098039215686, 0.5411764705882353)">
+    <color rgba="0.7  0.87 0.54 1.  "/>
+  </material>
+  <material name="mat_col_(0.984313725490196, 0.6039215686274509, 0.6)">
+    <color rgba="0.98 0.6  0.6  1.  "/>
+  </material>
+  <material name="mat_col_(0.6509803921568628, 0.807843137254902, 0.8901960784313725)">
+    <color rgba="0.65 0.81 0.89 1.  "/>
+  </material>
+  <material name="mat_col_(0.12156862745098039, 0.47058823529411764, 0.7058823529411765)">
+    <color rgba="0.12 0.47 0.71 1.  "/>
+  </material>
+  <material name="mat_col_(0.9921568627450981, 0.7490196078431373, 0.43529411764705883)">
+    <color rgba="0.99 0.75 0.44 1.  "/>
+  </material>
+  <material name="mat_col_(0.6941176470588235, 0.34901960784313724, 0.1568627450980392)">
+    <color rgba="0.69 0.35 0.16 1.  "/>
+  </material>
+  <material name="mat_col_(0.41568627450980394, 0.23921568627450981, 0.6039215686274509)">
+    <color rgba="0.42 0.24 0.6  1.  "/>
+  </material>
+  <material name="mat_col_(0.2, 0.6274509803921569, 0.17254901960784313)">
+    <color rgba="0.2  0.63 0.17 1.  "/>
+  </material>
+</robot>
