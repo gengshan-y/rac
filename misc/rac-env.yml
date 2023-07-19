@@ -194,3 +194,6 @@ dependencies:
     - werkzeug==2.0.2
     - yacs==0.1.8
     - zipp==3.7.0
+    - pymeshfix
+    - einops
+    - mediapy

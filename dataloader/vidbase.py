@@ -81,8 +81,10 @@ class BaseDataset(Dataset):
 
         if osp.exists(self.masklist[im0idx]):
             mask = cv2.imread(self.masklist[im0idx],0)
-        else:
+        elif osp.exists(self.masklist[im0idx].replace('.png', '.npy')):
             mask = np.load(self.masklist[im0idx].replace('.png', '.npy'))
+        else:
+            mask = np.ones_like(img)[...,0]
         #print('mask+img:%f'%(time.time()-ss))
         #mask = mask/np.sort(np.unique(mask))[1]
         #occluder = mask==255
@@ -123,12 +125,15 @@ class BaseDataset(Dataset):
 
         # normal
         nml_path = img_path.replace('JPEGImages', 'Normal').replace('.jpg', '.pfm')
-        nml = readPFM(nml_path)[0]
-        h,w,_ = mask.shape
-        oh,ow=nml.shape[:2]
-        factor_h = h/oh
-        factor_w = w/ow
-        nml = cv2.resize(nml, (w,h))
+        if osp.exists(nml_path):
+            nml = readPFM(nml_path)[0]
+            h,w,_ = mask.shape
+            oh,ow=nml.shape[:2]
+            factor_h = h/oh
+            factor_w = w/ow
+            nml = cv2.resize(nml, (w,h))
+        else:
+            nml = np.zeros_like(img)
 
         try:
             dp = readPFM(self.dplist[im0idx])[0]

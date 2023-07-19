@@ -32,10 +32,14 @@ flags.DEFINE_integer('tvid',45,'beta of the target mesh')
 flags.DEFINE_integer('tcap',-1,'cap number of target frames')
             
 def get_center_crop(img_path, img_size=None):
-    print(img_path)
     sil_path = img_path.replace('JPEGImages', 'Annotations').replace('.jpg', '.png')
     img = cv2.imread(img_path)[:,:,::-1].copy()
     sil = cv2.imread(sil_path,0)
+
+    img = get_center_crop_img(img, sil, img_size=img_size)
+    return img
+
+def get_center_crop_img(img, sil, img_size=None):
     try:
         indices = np.where(sil>0); xid = indices[1]; yid = indices[0]
         center = ( int((xid.max()+xid.min())/2), int((yid.max()+yid.min())/2) )

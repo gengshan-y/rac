@@ -1,11 +1,13 @@
 # RAC: Reconstructing Animatable Categories from Videos
 
 **[[Project page]](https://gengshan-y.github.io/rac-www/)**
+**[[Lab4D page]](https://github.com/lab4d-org/lab4d)**
 
 ![rac](https://user-images.githubusercontent.com/13134872/236699509-ee1569ba-28da-4e53-aedc-ff20cc19e87f.gif)
 
 
 ### Updates
+- [07/19/2023] Add utility functions for rendering and visualization. [lab4d](https://github.com/lab4d-org/lab4d) is online.
 - [06/13/2023] Added the cat/human model and image data necessary to run the demo.
 - [05/07/2023] We plan to release re-implementation of training code through [lab4d](https://github.com/lab4d-org/lab4d).
 - [01/22/2023] This repo is under development. It will contain the pre-trained category models of cats, dogs, and human.
@@ -30,6 +32,9 @@ conda activate rac
 pip install git+https://github.com/pytorch/functorch.git@a6e0e61
 pip install git+https://github.com/facebookresearch/pytorch3d.git
 cd quaternion; python setup.py install; cd -
+
+# optionally install manifold remeshing to reduce space taken by output meshes
+git clone --recursive git@github.com:hjwdzh/Manifold.git; cd Manifold; mkdir build; cd build; cmake .. -DCMAKE_BUILD_TYPE=Release;make -j8; cd ../../
 ```
 
 ### Pretrained models and data
@@ -64,3 +69,12 @@ It retargets the source video 69 to target video 45. Results are saved at `logdi
 ### Demo
 See `demo.ipynb` for an interactive demo visualizing learned morphology and articulations.
 ![Screenshot 2023-01-22 at 9 58 34 PM](https://user-images.githubusercontent.com/13134872/213958804-a78f2a17-bea6-46ac-8a9c-8e321ff4df44.png)
+
+### Make a collage of results
+Run 
+```
+# GPUs to parallize over, seqname, logname, extraction and rendering script
+python scripts/parallel.py "0" cat76 cat76 scripts/extract_and_render_mesh.sh
+```
+to render reconstructions of all videos, and see `make_collage.ipynb` to make a video collage.
+

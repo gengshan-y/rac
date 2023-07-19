@@ -2263,14 +2263,14 @@ def extract_mesh(model,chunk,grid_size,
                     mesh = trimesh.load('tmp/simple-%s.obj'%suffix)
                 except:
                     print('simplification failed')
-                    # smooth the mesh (slow)
-                    import pymeshlab
-                    ms = pymeshlab.MeshSet()
-                    ms.add_mesh(pymeshlab.Mesh(mesh.vertices, mesh.faces), "name")
-                    p = pymeshlab.Percentage(1) # use larger values to get smoother mesh
-                    mesh_isotropic = ms.meshing_isotropic_explicit_remeshing(targetlen=p)
-                    mesh = trimesh.Trimesh( ms.current_mesh().vertex_matrix(),
-                                            ms.current_mesh().face_matrix())
+                    ## smooth the mesh (slow)
+                    #import pymeshlab
+                    #ms = pymeshlab.MeshSet()
+                    #ms.add_mesh(pymeshlab.Mesh(mesh.vertices, mesh.faces), "name")
+                    #p = pymeshlab.Percentage(1) # use larger values to get smoother mesh
+                    #mesh_isotropic = ms.meshing_isotropic_explicit_remeshing(targetlen=p)
+                    #mesh = trimesh.Trimesh( ms.current_mesh().vertex_matrix(),
+                    #                        ms.current_mesh().face_matrix())
                     #print(subprocess.check_output(['./Manifold/build/manifold', 'tmp/input.obj', 'tmp/output.obj', '100000']))
                     #print(subprocess.check_output(['./Manifold/build/simplify', '-i', 'tmp/output.obj', '-o', 'tmp/simple.obj', '-m', '-f', '50000']))
                     #mesh = trimesh.load('tmp/simple.obj')
@@ -2367,4 +2367,32 @@ def transform_bg_to_cam(cam, bgcam, mesh, mesh_bg):
     
     mesh_bg_cam.vertices = obj_to_cam(verts, Rmat, Tmat).numpy()
     mesh = trimesh.util.concatenate([mesh, mesh_bg_cam])
+    return mesh
+
+def transform_a_to_b(cam_a, cam_b, mesh_a, mesh_b):
+    """
+    cam_b: component b to cam transform
+    cam_a: component a to cam transform
+    mesh_b: component a canonical mesh
+    mesh_a: component b canonical mesh
+    return: mesh a+b in the canonical space of b
+    """
+    # invert component b motion
+    R_b = torch.Tensor(cam_b[:3,:3]   )
+    T_b = torch.Tensor(cam_b[:3 ,3]   )
+    R_bi=R_b.T
+    T_bi=-R_b.T.matmul(T_b[:,None])[:,0]
+
+    # compose b^inv a
+    R_a = torch.Tensor(cam_a[:3,:3]   )
+    T_a = torch.Tensor(cam_a[:3 ,3]   )
+    Rmat = torch.Tensor(R_bi.matmul(R_a))
+    Tmat = torch.Tensor(R_bi.matmul(T_a[:,None])[:,0] + T_bi)
+
+    # points for component a
+    mesh_a_cam = mesh_a.copy()
+    verts = torch.Tensor(mesh_a_cam.vertices)
+
+    mesh_a_cam.vertices = obj_to_cam(verts, Rmat, Tmat).numpy()
+    mesh = trimesh.util.concatenate([mesh_b, mesh_a_cam])
     return mesh
