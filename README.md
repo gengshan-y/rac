@@ -1,7 +1,7 @@
 # RAC: Reconstructing Animatable Categories from Videos
 
 **[[Project page]](https://gengshan-y.github.io/rac-www/)**
-**[[Lab4D page]](https://github.com/lab4d-org/lab4d)**
+**[[Training code]](https://github.com/lab4d-org/lab4d)**
 
 ![rac](https://user-images.githubusercontent.com/13134872/236699509-ee1569ba-28da-4e53-aedc-ff20cc19e87f.gif)
 
@@ -70,11 +70,21 @@ It retargets the source video 69 to target video 45. Results are saved at `logdi
 See `demo.ipynb` for an interactive demo visualizing learned morphology and articulations.
 ![Screenshot 2023-01-22 at 9 58 34 PM](https://user-images.githubusercontent.com/13134872/213958804-a78f2a17-bea6-46ac-8a9c-8e321ff4df44.png)
 
-### Make a collage of results
+### Make a collage of the results
 Run 
 ```
 # GPUs to parallize over, seqname, logname, extraction and rendering script
 python scripts/parallel.py "0" cat76 cat76 scripts/extract_and_render_mesh.sh
 ```
 to render reconstructions of all videos, and see `make_collage.ipynb` to make a video collage.
+
+Examples:
+
+https://github.com/gengshan-y/rac/assets/13134872/6c8b941f-1dc4-438f-987a-6ac5f35349cd
+
+https://github.com/gengshan-y/rac/assets/13134872/6a33919d-e505-49ea-9d26-f03518604244
+
+https://github.com/gengshan-y/rac/assets/13134872/d177f3cb-f12c-4dfa-837e-95421636ce71
+
+
 
